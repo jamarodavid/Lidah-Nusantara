@@ -1,0 +1,103 @@
+* {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+html ::-webkit-scrollbar-track {
+	background: transparent;
+}
+html ::-webkit-scrollbar-thumb {
+	background: #ffd523;
+	border-radius: 10px;
+}
+html ::-webkit-scrollbar {
+	width: 10px;
+}
+
+
+.navbar-nav{
+    margin-left: 2.5rem;
+    
+}
+
+.nav-item .nav-link {
+    transition: 0.4s;
+}
+
+.nav-item .nav-link:hover{
+    color: #ffd523; 
+    
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    padding: 5px 11% 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+}
+
+
+
+.home .img{
+    flex: 1 1 400px;
+    
+}
+
+.home .img img{
+    width: 100%;
+    margin-left: 60px;
+    border-radius: 1rem;
+    box-shadow: 9px 7px 1px #ffd523;
+}
+.home-content{
+    flex: 1 1 300px;
+}
+
+.home-content a{
+    text-decoration: none;
+    color: #ffd523;
+    font-size: 1rem;
+}
+
+.home-content h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:873px){
+    .home .img img{
+        margin-left: 0px;
+    }
+}
+
+
+.about{
+    background-color: #ffd523;
+    padding: 1.5rem 1.5rem ;
+    margin: 3rem 0;
+
+}
+
+.about h3{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.info h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.kontak{
+    margin: 7rem 0rem;
+}
+
